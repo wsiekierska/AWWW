@@ -31,7 +31,7 @@ Next in line is the famous Italian humoristic influencer. Khaby Lame performed e
 
 ![Alt text](https://www.wikistaar.com/wp-content/uploads/2022/03/khaby-lame-Wiki.jpg "a title") 
 
-![Alt text](https://static01.nyt.com/images/2021/06/06/fashion/02KHABY-1/02KHABY-1-superJumbo.jpg?quality=90&auto=webp "a title") 
+![Alt text](https://starsunfolded.co/wp-content/uploads/2022/07/Khaby-Lame.jpg "a title") 
 
 ![Alt text](https://biographymask.com/wp-content/uploads/2021/06/Khaby-Lame-in-his-TikTok-videosource-Instagram.jpg "a title") 
 
