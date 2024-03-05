@@ -1,6 +1,6 @@
 # The most followed TikTok accounts in 2022! - Favikon
 
-#### [1. Charli DâAmelio - 141.1M followers](#TOP1.md) 
+#### [1. Charli DâAmelio - 141.1M followers](TOP1.md) 
 
 #### [2. Khaby Lame - 139.7M followers](#TOP2.md) 
 
