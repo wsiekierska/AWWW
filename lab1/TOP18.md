@@ -14,7 +14,7 @@
 >  Catch the beauty of the moment
 >  [#yzfamily](https://www.tiktok.com/tag/yzfamily "yzfamily") 
 > [#totallymgmt](https://www.tiktok.com/tag/totallymgmt "totallymgmt") 
-> [â¬ Se AcabÃ³ la Cuarentena - Jowell & Randy & Kiko el Crazy](https://www.tiktok.com/music/Se-AcabÃ³-la-Cuarentena-6857275312967796738 "â¬ Se AcabÃ³ la Cuarentena - Jowell & Randy & Kiko el Crazy") 
+> [♬ Se Acabó la Cuarentena - Jowell & Randy & Kiko el Crazy](https://www.tiktok.com/music/Se-Acabó-la-Cuarentena-6857275312967796738 "♬ Se Acabó la Cuarentena - Jowell & Randy & Kiko el Crazy") 
 > 
 > 
 

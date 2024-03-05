@@ -2,7 +2,7 @@
 
 #### Description:
 
-And arriving as number five most followed celebrity on TikTok, ladies and gentlemen, give it up for Will Smith. The famous actor has made a surprising entrance on the social network. He posts varied humoristic content like collages with other content creators, different trends, and videos with friends and familyâ¦ And it appears his audience is loving it! Will Smith has also done a few collabs on his TikTok.
+And arriving as number five most followed celebrity on TikTok, ladies and gentlemen, give it up for Will Smith. The famous actor has made a surprising entrance on the social network. He posts varied humoristic content like collages with other content creators, different trends, and videos with friends and family… And it appears his audience is loving it! Will Smith has also done a few collabs on his TikTok.
 
 #### Tiktok link:
 
@@ -11,8 +11,8 @@ And arriving as number five most followed celebrity on TikTok, ladies and gentle
 > 
 > 
 > [@willsmith](https://www.tiktok.com/@willsmith "@willsmith") 
->  Me ân @jadapinkettsmith
->  [â¬ I would rather have Billy Rae Cyrus mullet - Legoshiâs facial expressions](https://www.tiktok.com/music/I-would-rather-have-Billy-Rae-Cyrus-mullet-6922340528361179910 "â¬ I would rather have Billy Rae Cyrus mullet - Legoshiâs facial expressions") 
+>  Me ‘n @jadapinkettsmith
+>  [♬ I would rather have Billy Rae Cyrus mullet - Legoshi’s facial expressions](https://www.tiktok.com/music/I-would-rather-have-Billy-Rae-Cyrus-mullet-6922340528361179910 "♬ I would rather have Billy Rae Cyrus mullet - Legoshi’s facial expressions") 
 > 
 > 
 

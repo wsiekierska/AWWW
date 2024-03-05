@@ -12,11 +12,11 @@ Another iconic TikToker! Like many other content creators, Bella Poarch started 
 > 
 > [@bellapoarch](https://www.tiktok.com/@bellapoarch "@bellapoarch") 
 > 
->  I got dizzy ð¥´
+>  I got dizzy 🥴
 >  
 > 
 > 
-> [â¬ Ð¾ÑÐ¸Ð³Ð¸Ð½Ð°Ð»ÑÐ½ÑÐ¹ Ð·Ð²ÑÐº - ð¬ï¸](https://www.tiktok.com/music/Ð¾ÑÐ¸Ð³Ð¸Ð½Ð°Ð»ÑÐ½ÑÐ¹-Ð·Ð²ÑÐº-7067549981984541441 "â¬ Ð¾ÑÐ¸Ð³Ð¸Ð½Ð°Ð»ÑÐ½ÑÐ¹ Ð·Ð²ÑÐº - ð¬ï¸") 
+> [♬ оригинальный звук - 🌬️](https://www.tiktok.com/music/оригинальный-звук-7067549981984541441 "♬ оригинальный звук - 🌬️") 
 > 
 > 
 
@@ -34,5 +34,5 @@ Another iconic TikToker! Like many other content creators, Bella Poarch started 
 
 ![Alt text](https://www.thelist.com/img/gallery/what-you-never-knew-about-bella-poarch/intro-1635433744.jpg "a title") 
 
-![Alt text](https://www.the-sun.com/wp-content/uploads/sites/6/2021/05/NINTCHDBPICT000653363575.jpg "a title") 
+![Alt text](https://www.thewikifeed.com/wp-content/uploads/2021/08/bella-poarch-1.jpg "a title") 
 

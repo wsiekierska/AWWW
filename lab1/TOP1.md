@@ -1,8 +1,8 @@
-### 1. Charli DâAmelio - 141.1M followers
+### 1. Charli D’Amelio - 141.1M followers
 
 #### Description:
 
-The one and only Charli DâAmelio! Okay, if you donât know this one, you really need to catch up. Charli DâAmelio is one of TikTokâs first content creators. She started by sharing dance videos, recreating, or sharing original choreographies. With time, she became the face of TikTok before the network went viral, and when TikTokâs downloads exploded, Charli DâAmelioâs followers did just the same. Today, this content creator is TikTokâs most-followed influencer, with a total of 141.1M followers. Charli now works with exclusive brands like Prada, but she still honors her first-ever long-term partnership with Dunkin Donuts.
+The one and only Charli D’Amelio! Okay, if you don’t know this one, you really need to catch up. Charli D’Amelio is one of TikTok’s first content creators. She started by sharing dance videos, recreating, or sharing original choreographies. With time, she became the face of TikTok before the network went viral, and when TikTok’s downloads exploded, Charli D’Amelio’s followers did just the same. Today, this content creator is TikTok’s most-followed influencer, with a total of 141.1M followers. Charli now works with exclusive brands like Prada, but she still honors her first-ever long-term partnership with Dunkin Donuts.
 
 #### Tiktok link:
 
@@ -12,7 +12,7 @@ The one and only Charli DâAmelio! Okay, if you donât know this one, yo
 > 
 > [@charlidamelio](https://www.tiktok.com/@charlidamelio "@charlidamelio") 
 >  @dixiedamelio @noah beck dc @itsgabrielluis
->  [â¬ Big Bank Dance Challenge - Gabriel Luis Pascual](https://www.tiktok.com/music/Big-Bank-Dance-Challenge-6850704496125856514 "â¬ Big Bank Dance Challenge - Gabriel Luis Pascual") 
+>  [♬ Big Bank Dance Challenge - Gabriel Luis Pascual](https://www.tiktok.com/music/Big-Bank-Dance-Challenge-6850704496125856514 "♬ Big Bank Dance Challenge - Gabriel Luis Pascual") 
 > 
 > 
 
@@ -24,11 +24,11 @@ The one and only Charli DâAmelio! Okay, if you donât know this one, yo
 
 #### Photos:
 
-![Alt text](https://celebmafia.com/wp-content/uploads/2020/12/charli-d-amelio-live-stream-video-and-photos-12-14-2020-3.jpg "a title") 
+![Alt text](https://i.insider.com/5e836f2c487c2259b73cd628 "a title") 
 
-![Alt text](https://celebmafia.com/wp-content/uploads/2020/12/charli-d-amelio-live-stream-video-and-photos-12-14-2020-1.jpg "a title") 
+![Alt text](https://www.hawtcelebs.com/wp-content/uploads/2021/05/charli-d-amelio-at-2021-iheartradio-music-awards-in-los-angeles-05-27-2021-4.jpg "a title") 
 
-![Alt text](https://www.hawtcelebs.com/wp-content/uploads/2021/03/charli-d-amelio-instagram-photos-03-28-2021-5.jpg "a title") 
+![Alt text](https://www.hawtcelebs.com/wp-content/uploads/2021/05/charli-d-amelio-at-2021-iheartradio-music-awards-in-los-angeles-05-27-2021-2.jpg "a title") 
 
-![Alt text](https://imagesvc.meredithcorp.io/v3/mm/image?url=https://static.onecms.io/wp-content/uploads/sites/20/2020/07/31/charli-damelio-1.jpg "a title") 
+![Alt text](https://media.newyorker.com/photos/5f5256c936b6ac443a7abc24/master/w\_2560,c\_limit/George-TikTokandCharliD'Amelio.jpg "a title") 
 

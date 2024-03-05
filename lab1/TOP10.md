@@ -1,4 +1,4 @@
-### 10. Dixie DâAmelio - 57.4M followers
+### 10. Dixie D’Amelio - 57.4M followers
 
 #### Description:
 
@@ -16,7 +16,7 @@
 >  
 > 
 > 
-> [â¬ Wild - dixie](https://www.tiktok.com/music/Wild-7091115974010702634 "â¬ Wild - dixie") 
+> [♬ Wild - dixie](https://www.tiktok.com/music/Wild-7091115974010702634 "♬ Wild - dixie") 
 > 
 > 
 
@@ -28,11 +28,11 @@
 
 #### Photos:
 
-![Alt text](https://www.lifeandstylemag.com/wp-content/uploads/2022/08/Dixie-Damelio-bikini02.jpg?fit=1200,1200&quality=86&strip=all "a title") 
-
 ![Alt text](https://popslider.com/wp-content/uploads/2020/08/Dixie-DAmelio.jpg "a title") 
 
-![Alt text](https://healthyceleb.com/wp-content/uploads/2019/12/Dixie-DAmelio-in-an-Instagram-post-as-seen-in-December-2019.jpg "a title") 
+![Alt text](https://mavenbuzz.com/wp-content/uploads/2021/05/166051696\_1230641964005021\_8616043683538177791\_n-1.jpg "a title") 
 
-![Alt text](https://i.ibb.co/r2fZ8br/Dixie-D-Amelio-Wallpapers-Insta-Fit-Bio-8.jpg "a title") 
+![Alt text](https://www.gluwee.com/wp-content/uploads/2021/01/dixie-damelio\_2.jpg "a title") 
+
+![Alt text](https://i.pinimg.com/originals/5d/72/3c/5d723ca42719f1fea0338964ae4b6cb6.jpg "a title") 
 

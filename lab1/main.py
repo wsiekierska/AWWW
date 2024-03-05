@@ -5,7 +5,7 @@ from duckduckgo_search import DDGS
 
 
 response = requests.get('https://www.favikon.com/blog/the-20-most-famous-tiktok-influencers-in-the-world')
-soup = BeautifulSoup(response.text, 'html.parser')
+soup = BeautifulSoup(response.content.decode('utf-8','ignore'),"lxml")
 
 html_text = ''''''
 page_title = soup.title
