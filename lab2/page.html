@@ -1,6 +1,5 @@
+<!DOCTYPE html>
 <html>
-<meta charset="utf-8"/>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,17 +15,14 @@
             box-sizing: border-box;
         }
 
-        .column {
-            float: left;
-            height: 39.5%;
-            padding: 5px;
+        .row {
+            display: flex;
         }
 
-        /* Clearfix (clear floats) */
-        .row::after {
-            content: "";
-            clear: both;
-            display: table;
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
         }
 
         progress {
@@ -36,13 +32,26 @@
         progress:after {
             content: attr(value) '%';
         }
+
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #1abc9c;
+            color: white;
+            font-size: 30px;
+            white-space: pre;
+        }
+
     </style>
 </head>
 
-<header>
+<header class="header">
     <center>
         <h1>
-            Tik Tok
+            <strong>
+                Tik Tok
+            </strong>
+
         </h1>
     </center>
     <p>
@@ -53,28 +62,34 @@
         rozbudowane i intuicyjne narzędzie do tworzenia interesującego video-contentu.
     </p>
 
+    <br>
     <p>
-        <label>Percentage of internet users on Tiktok:</label>
+        <label><strong>Percentage of internet users on Tiktok:</strong></label>
         <progress max="100" value="23"></progress>
     </p>
+    <br>
+
     <div class="row">
         <div class="column">
             <img src="https://www.investopedia.com/thmb/ZDIrbfnlHbQmQyQWK4o_7rDa_A0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1227952189-ef89e5ba81984b63a33c84ce2bf6de78.jpg"
-                 alt="Tik Tok installation" style="height:100%">
+                 alt="Tik Tok installation" style="width:100%">
         </div>
         <div class="column">
             <img src="https://www.niemanlab.org/images/Screen-Shot-2022-11-09-at-12.59.48-PM-700x490.png"
-                 alt="Example Tik-Toks" style="height:100%">
+                 alt="Example Tik-Toks" style="width:100%">
         </div>
         <div class="column">
             <img src="https://www.humanium.org/en/wp-content/uploads/2023/08/shutterstock_2172019187-830x553.jpg"
-                 alt="Making a TikTok" style="height:100%">
+                 alt="Making a TikTok" style="width:100%">
         </div>
     </div>
 </header>
+<br>
 <article>
     <h2>
-        Najpopularniejsze dźwięki z TikToka w 2024 według Spotify:
+        <strong>
+            Najpopularniejsze dźwięki z TikToka w 2024 według Spotify:
+        </strong>
     </h2>
     <ol type="I">
         <li>
@@ -97,10 +112,11 @@
         </li>
     </ol>
 
-    <h2>Polarne trendy z Tiktoka</h2>
+    <br>
+    <h2><strong>Popularne trendy z Tiktoka</strong></h2>
     <p>
 
-    <table style="width:40%">
+    <table class="table-auto">
         <caption>
             <strong>
                 Ocena popularnych trendów na Tiktoku
@@ -150,6 +166,7 @@
         </tr>
     </table>
     </p>
+    <br>
     <p>
         <strong>Twój pomysł na nowy trend</strong>
     <form>
@@ -176,8 +193,8 @@
         <input type="submit" value="Submit">
     </form>
     </p>
-
-    <h2>Najbardziej popularni Tiktokerzy w Polsce</h2>
+    <br>
+    <h2><strong>Najbardziej popularni Tiktokerzy w Polsce</strong></h2>
 
 
     <details>
@@ -314,7 +331,8 @@
 
     </details>
 
-    <h2>Najpopularniejsi Tiktokerzy na każdym kontynencie</h2>
+    <br>
+    <h2><strong>Najpopularniejsi Tiktokerzy na każdym kontynencie</strong></h2>
 
     <p>Kliknij na wybrany kontynent:</p>
 
