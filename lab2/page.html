@@ -5,6 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
     <style>
+
+        input[type=text], select {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 50%;
+            background-color: #7209b7;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #7209b7;
+        }
+
+        div2 {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
         table, th, td {
             border: 1px solid black;
             text-align: center;
@@ -13,6 +45,7 @@
 
         * {
             box-sizing: border-box;
+            font-size: 20px;
         }
 
         .row {
@@ -36,10 +69,40 @@
         .header {
             padding: 60px;
             text-align: center;
-            background: #1abc9c;
+            background: #7209b7;
             color: white;
-            font-size: 30px;
-            white-space: pre;
+            font-size: 25px;
+        }
+
+        .myh1 {
+            /*padding: 60px;*/
+            font-weight: bold;
+            text-align: center;
+            /*background: #7209b7;*/
+            /*color: white;*/
+            font-size: 60px;
+        }
+
+        .header2 {
+            padding: 30px;
+            text-align: center;
+            background: #b5179e;
+            color: white;
+            font-size: 20px;
+        }
+
+        .h2 {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .article {
+            padding: 15px;
+            text-align: -moz-left;
+            background: #f1cfea;
+            color: black;
+            font-size: 15px;
+
         }
 
     </style>
@@ -47,11 +110,8 @@
 
 <header class="header">
     <center>
-        <h1>
-            <strong>
-                Tik Tok
-            </strong>
-
+        <h1 class="myh1">
+            Tik Tok
         </h1>
     </center>
     <p>
@@ -61,8 +121,9 @@
         specjalne, nakładki, ścieżki dźwiękowe, możliwość podłożenia lektora do filmu i wiele więcej. Jest to bardzo
         rozbudowane i intuicyjne narzędzie do tworzenia interesującego video-contentu.
     </p>
+</header>
+<div class="header2">
 
-    <br>
     <p>
         <label><strong>Percentage of internet users on Tiktok:</strong></label>
         <progress max="100" value="23"></progress>
@@ -83,256 +144,306 @@
                  alt="Making a TikTok" style="width:100%">
         </div>
     </div>
-</header>
-<br>
-<article>
-    <h2>
-        <strong>
+</div>
+
+<article class="article">
+    <div class="shadow-lg">
+        <h2 class="h2">
+            <!--            <strong>-->
             Najpopularniejsze dźwięki z TikToka w 2024 według Spotify:
-        </strong>
-    </h2>
-    <ol type="I">
-        <li>
-            <i>Greedy</i> - Tate McRae
-        </li>
-        <li>
-            <i>Strangers</i> - Kenya Grace
-        </li>
-        <li>
-            <i>Give It To Me (House) - Remix</i> - Bull Beats
-        </li>
-        <li>
-            <i>Radio</i> - Lana Del rey
-        </li>
-        <li>
-            <i>Escapism. - Sped Up</i> - RAYE, 070 Shake
-        </li>
-        <li>
-            <i>City Boys Up</i> - Mati Stańczak
-        </li>
-    </ol>
+            <!--            </strong>-->
+        </h2>
+        <ol type="I">
+            <li>
+                <i>Greedy</i> - Tate McRae
+            </li>
+            <li>
+                <i>Strangers</i> - Kenya Grace
+            </li>
+            <li>
+                <i>Give It To Me (House) - Remix</i> - Bull Beats
+            </li>
+            <li>
+                <i>Radio</i> - Lana Del rey
+            </li>
+            <li>
+                <i>Escapism. - Sped Up</i> - RAYE, 070 Shake
+            </li>
+            <li>
+                <i>City Boys Up</i> - Mati Stańczak
+            </li>
+        </ol>
+    </div>
 
     <br>
-    <h2><strong>Popularne trendy z Tiktoka</strong></h2>
+    <h2 class="h2">Popularne trendy z Tiktoka</h2>
     <p>
 
-    <table class="table-auto">
-        <caption>
-            <strong>
-                Ocena popularnych trendów na Tiktoku
-            </strong>
+    <div class="shadow-lg">
+        <table class="table-auto">
+            <caption>
+                <strong>
+                    Ocena popularnych trendów na Tiktoku
+                </strong>
 
 
-        </caption>
-        <tr>
-            <th>Trend</th>
-            <th>Wideo</th>
-            <th>Ocena</th>
-        </tr>
-        <tr>
-            <td>Pełzaki</td>
-            <td>
-                <iframe src="https://www.youtube.com/embed/I1jMvk0sDpM" height="200" title="A YouTube video"
-                        frameborder="0" allowfullscreen></iframe>
-            </td>
-            <td>2/10</td>
-        </tr>
-        <tr>
-            <td>Girl Dinner</td>
-            <td>
-                <iframe src="https://www.youtube.com/embed/5rUbbEHubsw" height="200"
-                        title="Girl Dinner | Tiktok compilations"
-                        frameborder="0" allowfullscreen></iframe>
-            </td>
-            <td>3/10</td>
-        </tr>
-        <tr>
-            <td>Ich will nicht</td>
-            <td>
-                <iframe src="https://www.youtube.com/embed/BEFVmIhidWE" height="200"
-                        title="ich will nicht dancing wolf meme"
-                        frameborder="0" allowfullscreen></iframe>
-            </td>
-            <td>10/10</td>
-        </tr>
-        <tr>
-            <td>Girl Math</td>
-            <td>
-                <iframe src="https://www.youtube.com/embed/gJNBPCv-vGM" height="200"
-                        title="GIRL MATH COMPILATION"
-                        frameborder="0" allowfullscreen></iframe>
-            </td>
-            <td>8/10</td>
-        </tr>
-    </table>
+            </caption>
+            <tr>
+                <th>Trend</th>
+                <th>Wideo</th>
+                <th>Ocena</th>
+            </tr>
+            <tr>
+                <td>Pełzaki</td>
+                <td>
+                    <iframe src="https://www.youtube.com/embed/I1jMvk0sDpM" height="200" title="A YouTube video"
+                            frameborder="0" allowfullscreen></iframe>
+                </td>
+                <td>2/10</td>
+            </tr>
+            <tr>
+                <td>Girl Dinner</td>
+                <td>
+                    <iframe src="https://www.youtube.com/embed/5rUbbEHubsw" height="200"
+                            title="Girl Dinner | Tiktok compilations"
+                            frameborder="0" allowfullscreen></iframe>
+                </td>
+                <td>3/10</td>
+            </tr>
+            <tr>
+                <td>Ich will nicht</td>
+                <td>
+                    <iframe src="https://www.youtube.com/embed/BEFVmIhidWE" height="200"
+                            title="ich will nicht dancing wolf meme"
+                            frameborder="0" allowfullscreen></iframe>
+                </td>
+                <td>10/10</td>
+            </tr>
+            <tr>
+                <td>Girl Math</td>
+                <td>
+                    <iframe src="https://www.youtube.com/embed/gJNBPCv-vGM" height="200"
+                            title="GIRL MATH COMPILATION"
+                            frameborder="0" allowfullscreen></iframe>
+                </td>
+                <td>8/10</td>
+            </tr>
+        </table>
+    </div>
     </p>
     <br>
     <p>
         <strong>Twój pomysł na nowy trend</strong>
-    <form>
-        <label for="fname">Nazwa trendu:</label><br>
-        <input type="text" id="fname" name="fname" value="Girl Math"><br>
-        <label for="song">Piosenka powiązana z trendem:</label><br>
-        <input type="text" id="song" name="song" value="'Feather' - Sabrina Carpenter"><br>
-        <label for="typ1">Typ trendu:</label><br>
+
+        <!--    <div class="div2">-->
+        <!--    <form>-->
+        <!--        <label for="fname">First Name</label>-->
+        <!--        <input type="text" id="fname1" name="firstname" placeholder="Your name..">-->
+
+        <!--        <label for="lname">Last Name</label>-->
+        <!--        <input type="text" id="lname" name="lastname" placeholder="Your last name..">-->
+
+        <!--        <label for="country">Country</label>-->
+        <!--        <select id="country" name="country">-->
+        <!--            <option value="australia">Australia</option>-->
+        <!--            <option value="canada">Canada</option>-->
+        <!--            <option value="usa">USA</option>-->
+        <!--        </select>-->
+
+        <!--        <input type="submit" value="Submit">-->
+        <!--    </form>-->
+        <!--</div>-->
+    <div class="div2">
         <form>
-            <input type="checkbox" id="typ1" name="typ1" value="BookTok">
-            <label for="typ1"> BookTok</label><br>
-            <input type="checkbox" id="typ2" name="typ2" value="CookTok">
-            <label for="typ2"> CookTok</label><br>
-            <input type="checkbox" id="typ3" name="typ3" value="DanceTok">
-            <label for="typ3"> DanceTok</label> <br>
-            <input type="checkbox" id="typ4" name="typ4" value="DIYTok">
-            <label for="typ4"> DIYTok</label><br>
-            <input type="checkbox" id="typ5" name="typ5" value="BeautyTok">
-            <label for="typ5"> BeautyTok</label><br>
-            <input type="checkbox" id="typ6" name="typ6" value="AdviceTok">
-            <label for="typ6"> AdviceTok</label>
+            <label for="fname">Nazwa trendu:</label>
+            <input type="text" id="fname" name="fname" value="Girl Math"><br>
+            <label for="song">Piosenka powiązana z trendem:</label><br>
+            <input type="text" id="song" name="song" value="'Feather' - Sabrina Carpenter"><br>
+            <label for="typ1">Typ trendu:</label><br>
+            <form>
+                <input type="checkbox" id="typ1" name="typ1" value="BookTok">
+                <label for="typ1"> BookTok</label><br>
+                <input type="checkbox" id="typ2" name="typ2" value="CookTok">
+                <label for="typ2"> CookTok</label><br>
+                <input type="checkbox" id="typ3" name="typ3" value="DanceTok">
+                <label for="typ3"> DanceTok</label> <br>
+                <input type="checkbox" id="typ4" name="typ4" value="DIYTok">
+                <label for="typ4"> DIYTok</label><br>
+                <input type="checkbox" id="typ5" name="typ5" value="BeautyTok">
+                <label for="typ5"> BeautyTok</label><br>
+                <input type="checkbox" id="typ6" name="typ6" value="AdviceTok">
+                <label for="typ6"> AdviceTok</label>
+
+            </form>
+
+            <span class="relative flex h-3 w-3">
+
+  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+
+  <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+
+</span>
+            <input type="submit" value="Submit">
 
         </form>
-        <input type="submit" value="Submit">
-    </form>
+    </div>
     </p>
     <br>
-    <h2><strong>Najbardziej popularni Tiktokerzy w Polsce</strong></h2>
+    <div class="shadow-md">
+        <h2 class="h2">Najbardziej popularni Tiktokerzy w Polsce</h2>
 
 
-    <details>
-        <summary>
-            Twins Style
-        </summary>
-        <p>
-            <img src="https://ddob.com/img/influencers/e296185b567df5b4bf7e403032cdcd9c.jpg?v=1708753809"
-                 height="400px">
-        </p>
-        <p>
-            Hubert i Sebastian - bliźniacze rodzeństwo i bez wątpienia najbardziej uzdolniony i kreatywny duet
-            na TikToku.
+        <details>
+            <summary>
+                Twins Style
+            </summary>
+            <p>
+                <img src="https://ddob.com/img/influencers/e296185b567df5b4bf7e403032cdcd9c.jpg?v=1708753809"
+                     width=400px>
+            </p>
+            <p>
+                Hubert i Sebastian - bliźniacze rodzeństwo i bez wątpienia najbardziej uzdolniony i kreatywny duet
+                na TikToku.
 
-            Każdy z ich klipów to przemyślane, dopracowane i viralowe przesłanie kierowane do kilkumilionowej
-            rzeszy fanów.
-        </p>
-    </details>
-    <details>
-        <summary>
-            neffatibrothers
-        </summary>
-        <p>
-            <img src="https://ddob.com/img/influencers/3e9d03065b6f0e598c45e5892475ff99.jpg?v=1673406629"
-                 height="400px">
-        </p>
-        <p>
-            Jamel i Jamil to bracia bliźniaki, którzy zdobyli popularność w aplikacji Tik Tok.
-            Neffati Brothers pochodzą z tynezyjsko - polskiej rodziny, lecz wychowali się w Polsce. Aktualnie mieszkają
-            w Wielkiej Brytanii. Mają ok. 160 cm wzrostu. Urodzili się 8 października 1993 roku.
+                Każdy z ich klipów to przemyślane, dopracowane i viralowe przesłanie kierowane do kilkumilionowej
+                rzeszy fanów.
+            </p>
+        </details>
+        <details>
+            <summary>
+                neffatibrothers
+            </summary>
+            <p>
+                <img src="https://ddob.com/img/influencers/3e9d03065b6f0e598c45e5892475ff99.jpg?v=1673406629"
+                     width=400px>
+            </p>
+            <p>
+                Jamel i Jamil to bracia bliźniaki, którzy zdobyli popularność w aplikacji Tik Tok.
+                Neffati Brothers pochodzą z tynezyjsko - polskiej rodziny, lecz wychowali się w Polsce. Aktualnie
+                mieszkają
+                w Wielkiej Brytanii. Mają ok. 160 cm wzrostu. Urodzili się 8 października 1993 roku.
 
-            Niewiele wiemy o życiu prywatnym braci Neffati. Jeden z braci, Jamel, jest w związku małżeńskim z Agnieszką
-            Neffati, z którą wspólnie wychowują dziecko.
-            Na Tik Toku bracia Neffati słyną z filmów comedy.
-        </p>
-    </details>
-    <details>
-        <summary>
-            Franek Bielak
-        </summary>
-        <p>
-            <img src="https://ddob.com/img/influencers/25244adc635029dfec4b2d7a726dea06.jpg?v=1708755693"
-                 height="400px">
-        </p>
-        <p>
-            Franciszek Bielak to młody rysownik i tiktoker posługujący się pseudonimem artystycznym Fredziownik.
+                Niewiele wiemy o życiu prywatnym braci Neffati. Jeden z braci, Jamel, jest w związku małżeńskim z
+                Agnieszką
+                Neffati, z którą wspólnie wychowują dziecko.
+                Na Tik Toku bracia Neffati słyną z filmów comedy.
+            </p>
+        </details>
+        <details>
+            <summary>
+                Franek Bielak
+            </summary>
+            <p>
+                <img src="https://ddob.com/img/influencers/25244adc635029dfec4b2d7a726dea06.jpg?v=1708755693"
+                     width=400px>
+            </p>
+            <p>
+                Franciszek Bielak to młody rysownik i tiktoker posługujący się pseudonimem artystycznym Fredziownik.
 
-            Swoją przygodę z TikTokiem rozpoczął w lutym 2020 roku. W ciągu dwóch lat jego konto stało się jednym z
-            chętniej odwiedzanych kont o profilu artystycznym. W grudniu 2020 roku stworzył film, który uzyskał drugie
-            miejsce na świecie z największą liczbą polubień – List of most-liked TikTok videos.
+                Swoją przygodę z TikTokiem rozpoczął w lutym 2020 roku. W ciągu dwóch lat jego konto stało się jednym z
+                chętniej odwiedzanych kont o profilu artystycznym. W grudniu 2020 roku stworzył film, który uzyskał
+                drugie
+                miejsce na świecie z największą liczbą polubień – List of most-liked TikTok videos.
 
-            W czerwcu 2022 Fredziownik został laureatem nagrody głównej festiwalu See Blogers w Łodzi.
+                W czerwcu 2022 Fredziownik został laureatem nagrody głównej festiwalu See Blogers w Łodzi.
 
-            Mimo młodego wieku i krótkiej działalności w internecie, Franciszek ma na koncie wiele współprac z
-            prestiżowymi klientami, takimi jak Netflix, Fortnite, HP, Xiaomi.
-        </p>
-    </details>
-    <details>
-        <summary>
-            Jeleniewska
-        </summary>
-        <p>
-            <img src="https://ddob.com/img/influencers/f0309b5cae29e0247449aab2b2065019.jpg?v=1708747272"
-                 height="400px">
-        </p>
-        <p>
-            Maria Jeleniewska znana na TikToku jako Jeleniewska, swoją popularność zawdzięcza
-            właśnie tej platformie i video typu lip - sync. Założyła kanał na Youtubie.
-            Pierwsze zdjęcie na Instagramie opublikowała w kwietniu 2016 roku.
-            Pochodzi z Poznania.
-        </p>
-    </details>
-    <details>
-        <summary>
-            MARLEY
-        </summary>
-        <p>
-            <img src="https://ddob.com/img/influencers/e08088c6dbb417696cfeb732bb0cd5f4.jpg?v=1708752951"
-                 height="400px">
-        </p>
-        <p>
-            Marlena Sojka to jedna z najpopularniejszych tik tokerek w Polsce. Urodziła się 14 września 1998 roku. Na
-            swoim kanale nagrywa filmy lip sync, taniec, zabawne video.
-            Jej chłopak to Kuba Norek, również popularny Tik Toker.
-        </p>
-    </details>
-    <details>
-        <summary>
-            ZUSJE
-        </summary>
-        <p>
-            <img src="https://ddob.com/img/influencers/bdb4f7d27cab8866ee2735c2befd349a.jpg?v=1708752639"
-                 height="400px">
-        </p>
-        <p>
-            Zusje zaczynała swoją karierę jako Luxuria Astaroth już w 2012 roku, swój debiut zaliczyła w teledysku
-            Donatana &quot;Nie lubimy robić&quot;, występując jako ubijająca masło „Słowianka”.
-            Szybko rosnąca popularność Astaroth oraz związane z nią skandale, stał się przyczyną uzależnienia od używek.
-            Po odbytym odwyku we wrześniu 2018 roku, Kamila zmieniła pseudonim artystyczny na Zusje.
+                Mimo młodego wieku i krótkiej działalności w internecie, Franciszek ma na koncie wiele współprac z
+                prestiżowymi klientami, takimi jak Netflix, Fortnite, HP, Xiaomi.
+            </p>
+        </details>
+        <details>
+            <summary>
+                Jeleniewska
+            </summary>
+            <p>
+                <img src="https://ddob.com/img/influencers/f0309b5cae29e0247449aab2b2065019.jpg?v=1708747272"
+                     width=400px>
+            </p>
+            <p>
+                Maria Jeleniewska znana na TikToku jako Jeleniewska, swoją popularność zawdzięcza
+                właśnie tej platformie i video typu lip - sync. Założyła kanał na Youtubie.
+                Pierwsze zdjęcie na Instagramie opublikowała w kwietniu 2016 roku.
+                Pochodzi z Poznania.
+            </p>
+        </details>
+        <details>
+            <summary>
+                MARLEY
+            </summary>
+            <p>
+                <img src="https://ddob.com/img/influencers/e08088c6dbb417696cfeb732bb0cd5f4.jpg?v=1708752951"
+                     width=400px>
+            </p>
+            <p>
+                Marlena Sojka to jedna z najpopularniejszych tik tokerek w Polsce. Urodziła się 14 września 1998 roku.
+                Na
+                swoim kanale nagrywa filmy lip sync, taniec, zabawne video.
+                Jej chłopak to Kuba Norek, również popularny Tik Toker.
+            </p>
+        </details>
+        <details>
+            <summary>
+                ZUSJE
+            </summary>
+            <p>
+                <img src="https://ddob.com/img/influencers/bdb4f7d27cab8866ee2735c2befd349a.jpg?v=1708752639"
+                     width=400px>
+            </p>
+            <p>
+                Zusje zaczynała swoją karierę jako Luxuria Astaroth już w 2012 roku, swój debiut zaliczyła w teledysku
+                Donatana &quot;Nie lubimy robić&quot;, występując jako ubijająca masło „Słowianka”.
+                Szybko rosnąca popularność Astaroth oraz związane z nią skandale, stał się przyczyną uzależnienia od
+                używek.
+                Po odbytym odwyku we wrześniu 2018 roku, Kamila zmieniła pseudonim artystyczny na Zusje.
 
-            28 marca 2020 roku podczas gali Fame MMA 6 w Gdańsku, 24-letnia wówczas Zusje stanęła do walki w oktagonie z
-            młodszą od siebie o 2 lata Martą Linkiewicz. Od tamtej pory Kamila stoczyła także pojedynki z Dagmarą
-            Szewczyk, Kamilą „Kamiszką” Wybrańczyk, prywatnie partnerką Artura Szpilki, oraz Martę Rentel (Martirenti).
-            Po stoczonej walce z Martirenti, dziewczyny zaprzyjaźniły się.
+                28 marca 2020 roku podczas gali Fame MMA 6 w Gdańsku, 24-letnia wówczas Zusje stanęła do walki w
+                oktagonie z
+                młodszą od siebie o 2 lata Martą Linkiewicz. Od tamtej pory Kamila stoczyła także pojedynki z Dagmarą
+                Szewczyk, Kamilą „Kamiszką” Wybrańczyk, prywatnie partnerką Artura Szpilki, oraz Martę Rentel
+                (Martirenti).
+                Po stoczonej walce z Martirenti, dziewczyny zaprzyjaźniły się.
 
-            Zusje ma 1,74m wzrostu. Nieprzeciętną urodę zawdzięcza wschodnim korzeniom: jej babcia pochodziła z Ukrainy,
-            a druga babcia była w połowie Chinką i Rosjanką.
-        </p>
-    </details>
-    <details>
-        <summary>
-            Robert Lewandowski
-        </summary>
-        <p>
-            <img src="https://ddob.com/img/influencers/31d7f17aa72ce7845a1a69ca7a5cdff6.jpg?v=1708755925"
-                 height="400px">
-        </p>
-        <p>
-            Robert Lewandowski to polski piłkarz, występujący na pozycji środkowego napastnika w hiszpańskim klubie FC
-            Barcelona oraz w reprezentacji Polski, której jest kapitanem.
+                Zusje ma 1,74m wzrostu. Nieprzeciętną urodę zawdzięcza wschodnim korzeniom: jej babcia pochodziła z
+                Ukrainy,
+                a druga babcia była w połowie Chinką i Rosjanką.
+            </p>
+        </details>
+        <details>
+            <summary>
+                Robert Lewandowski
+            </summary>
+            <p>
+                <img src="https://ddob.com/img/influencers/31d7f17aa72ce7845a1a69ca7a5cdff6.jpg?v=1708755925"
+                     width=400px>
+            </p>
+            <p>
+                Robert Lewandowski to polski piłkarz, występujący na pozycji środkowego napastnika w hiszpańskim klubie
+                FC
+                Barcelona oraz w reprezentacji Polski, której jest kapitanem.
 
-            Urodził się 21. sierpnia 1988 roku w Waszawie.
-            Robert ma starszą siostrę Milenę. Jego matka Iwona była siatkarką AZS Warszawa, ojciec Krzysztof trenował
-            judo i grał w Hutniku Warszawa.
+                Urodził się 21. sierpnia 1988 roku w Waszawie.
+                Robert ma starszą siostrę Milenę. Jego matka Iwona była siatkarką AZS Warszawa, ojciec Krzysztof
+                trenował
+                judo i grał w Hutniku Warszawa.
 
-            2 czerwca 2013 ożenił się z Anną Stachurską. Lewandowscy mają dwie córki, Klarę (ur. 4 maja 2017) i Laurę
-            (ur. 6 maja 2020).
+                2 czerwca 2013 ożenił się z Anną Stachurską. Lewandowscy mają dwie córki, Klarę (ur. 4 maja 2017) i
+                Laurę
+                (ur. 6 maja 2020).
 
-            Robert Lewandowski wziął m.in. udział w kampanii Vistuli, Coca-Coli Zero, Huawei, czy DHL. Jest udziałowcem
-            spółki Protos Venture Capital, przez którą inwestuje w startupy, e-commerce i serwisy internetowe. Posiada
-            własną agencję Stor9_, specjalizującą się w komunikacji marketingowej, która zajmuje się także wizerunkiem
-            piłkarza oraz jego żony.
-        </p>
+                Robert Lewandowski wziął m.in. udział w kampanii Vistuli, Coca-Coli Zero, Huawei, czy DHL. Jest
+                udziałowcem
+                spółki Protos Venture Capital, przez którą inwestuje w startupy, e-commerce i serwisy internetowe.
+                Posiada
+                własną agencję Stor9_, specjalizującą się w komunikacji marketingowej, która zajmuje się także
+                wizerunkiem
+                piłkarza oraz jego żony.
+            </p>
 
-    </details>
+        </details>
 
+    </div>
     <br>
-    <h2><strong>Najpopularniejsi Tiktokerzy na każdym kontynencie</strong></h2>
+    <h2 class="h2">Najpopularniejsi Tiktokerzy na każdym kontynencie</h2>
 
     <p>Kliknij na wybrany kontynent:</p>
 
