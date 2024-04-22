@@ -97,359 +97,463 @@
         }
 
         .article {
-            padding: 10px;
+            padding: 20px;
             text-align: -moz-left;
-            background: #f1cfea;
+            background: #d9b3ff;
             color: black;
             font-size: 16px;
 
         }
 
+        .flex-col {
+            flex-direction: column;
+        }
+
+        .item1 {
+            grid-area: header;
+        }
+
+        .item2 {
+            grid-area: menu;
+        }
+
+        .item3 {
+            grid-area: main;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
+            gap: 10px;
+            background-color: #7209b7;
+            padding: 10px;
+        }
+
+        .grid-container > div {
+            background-color: #7209b7;
+            text-align: left;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+
     </style>
 </head>
-
-<header class="header">
-    <center>
-        <h1 class="myh1">
-            🎀 Tik Tok 🎀
-        </h1>
-    </center>
-    <p>
-        Tik Tok to serwis pozwalający na kreatywne publikowanie treści video – można je dowolnie edytować w samej
-        aplikacji, wchodzić w interakcje z pozostałymi użytkownikami. Tik Tok to źródło wiedzy, rozrywki, inspiracji. W
-        aplikacji można tworzyć krótkie filmiki, od 15 sekund nawet do 3 minut. Użytkownicy do wyboru mają liczne efekty
-        specjalne, nakładki, ścieżki dźwiękowe, możliwość podłożenia lektora do filmu i wiele więcej. Jest to bardzo
-        rozbudowane i intuicyjne narzędzie do tworzenia interesującego video-contentu.
-    </p>
-</header>
-<div class="header2">
-
-    <p>
-        <label><strong>Percentage of internet users on Tiktok:</strong></label>
-        <progress max="100" value="23"></progress>
-    </p>
-    <br>
-
-    <div class="row">
-        <div class="column">
-            <img src="https://www.investopedia.com/thmb/ZDIrbfnlHbQmQyQWK4o_7rDa_A0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1227952189-ef89e5ba81984b63a33c84ce2bf6de78.jpg"
-                 alt="Tik Tok installation" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="https://www.niemanlab.org/images/Screen-Shot-2022-11-09-at-12.59.48-PM-700x490.png"
-                 alt="Example Tik-Toks" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="https://www.humanium.org/en/wp-content/uploads/2023/08/shutterstock_2172019187-830x553.jpg"
-                 alt="Making a TikTok" style="width:100%">
-        </div>
+<div class="grid-container">
+    <div class="item1" id="header">
+        <header class="header">
+            <center>
+                <h1 class="myh1">
+                    🎀 Tik Tok 🎀
+                </h1>
+            </center>
+            <p>
+                Tik Tok to serwis pozwalający na kreatywne publikowanie treści video – można je dowolnie edytować w
+                samej
+                aplikacji, wchodzić w interakcje z pozostałymi użytkownikami. Tik Tok to źródło wiedzy, rozrywki,
+                inspiracji. W
+                aplikacji można tworzyć krótkie filmiki, od 15 sekund nawet do 3 minut. Użytkownicy do wyboru mają
+                liczne efekty
+                specjalne, nakładki, ścieżki dźwiękowe, możliwość podłożenia lektora do filmu i wiele więcej. Jest to
+                bardzo
+                rozbudowane i intuicyjne narzędzie do tworzenia interesującego video-contentu.
+            </p>
+        </header>
     </div>
-</div>
+    <div class="item3">
+        <div class="header2">
+            <p>
+                <label><strong>Percentage of internet users on Tiktok:</strong></label>
+                <progress max="100" value="23"></progress>
+            </p>
+            <br>
 
-<article class="article">
-    <div class="shadow-lg">
-        <h2 class="h2">
-            <!--            <strong>-->
-            Najpopularniejsze dźwięki z TikToka w 2024 według Spotify:
-            <!--            </strong>-->
-        </h2>
-        <ol type="I">
-            <li>
-                <i>Greedy</i> - Tate McRae
-            </li>
-            <li>
-                <i>Strangers</i> - Kenya Grace
-            </li>
-            <li>
-                <i>Give It To Me (House) - Remix</i> - Bull Beats
-            </li>
-            <li>
-                <i>Radio</i> - Lana Del rey
-            </li>
-            <li>
-                <i>Escapism. - Sped Up</i> - RAYE, 070 Shake
-            </li>
-            <li>
-                <i>City Boys Up</i> - Mati Stańczak
-            </li>
-        </ol>
-    </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://www.investopedia.com/thmb/ZDIrbfnlHbQmQyQWK4o_7rDa_A0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1227952189-ef89e5ba81984b63a33c84ce2bf6de78.jpg"
+                         alt="Tik Tok installation" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="https://www.niemanlab.org/images/Screen-Shot-2022-11-09-at-12.59.48-PM-700x490.png"
+                         alt="Example Tik-Toks" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="https://www.humanium.org/en/wp-content/uploads/2023/08/shutterstock_2172019187-830x553.jpg"
+                         alt="Making a TikTok" style="width:100%">
+                </div>
+            </div>
+        </div>
 
-    <br>
-    <h2 class="h2">Popularne trendy z Tiktoka</h2>
-    <p>
+        <article class="article">
+            <div class="shadow-lg" id="popular_sounds">
+                <h2 class="h2">
+                    <!--            <strong>-->
+                    Najpopularniejsze dźwięki z TikToka w 2024 według Spotify:
+                    <!--            </strong>-->
+                </h2>
+                <div class="flex-col">
+                    <ol type="I">
+                        <li>
+                            <div style="background-color: #b5179e; margin:8px; padding:12px">
+                                <i>Greedy</i> - Tate McRae
+                            </div>
+                        </li>
 
-    <div class="shadow-lg">
-        <table class="table-auto">
-            <caption>
-                <strong>
-                    Ocena popularnych trendów na Tiktoku
-                </strong>
+                        <div style="background-color: #b5179e; margin:10px; padding:12px">
+                            <li>
+                                <i>Strangers</i> - Kenya Grace
+                            </li>
+                        </div>
+                        <div style="background-color: #b5179e; margin:8px; padding:12px">
+                            <li>
+                                <i>Give It To Me (House) - Remix</i> - Bull Beats
+                            </li>
+                        </div>
+                        <div style="background-color: #b5179e; margin:8px; padding:12px">
+                            <li>
+                                <i>Radio</i> - Lana Del rey
+                            </li>
+                        </div>
+                        <div style="background-color: #b5179e; margin:8px; padding:12px">
+                            <li>
+                                <i>Escapism. - Sped Up</i> - RAYE, 070 Shake
+                            </li>
+                        </div>
+                        <div style="background-color: #b5179e; margin:8px; padding:12px">
+                            <li>
+                                <i>City Boys Up</i> - Mati Stańczak
+                            </li>
+                        </div>
 
 
-            </caption>
-            <tr>
-                <th>Trend</th>
-                <th>Wideo</th>
-                <th>Ocena</th>
-            </tr>
-            <tr>
-                <td>Pełzaki</td>
-                <td>
-                    <iframe src="https://www.youtube.com/embed/I1jMvk0sDpM" height="200" title="A YouTube video"
-                            frameborder="0" allowfullscreen></iframe>
-                </td>
-                <td>2/10</td>
-            </tr>
-            <tr>
-                <td>Girl Dinner</td>
-                <td>
-                    <iframe src="https://www.youtube.com/embed/5rUbbEHubsw" height="200"
-                            title="Girl Dinner | Tiktok compilations"
-                            frameborder="0" allowfullscreen></iframe>
-                </td>
-                <td>3/10</td>
-            </tr>
-            <tr>
-                <td>Ich will nicht</td>
-                <td>
-                    <iframe src="https://www.youtube.com/embed/BEFVmIhidWE" height="200"
-                            title="ich will nicht dancing wolf meme"
-                            frameborder="0" allowfullscreen></iframe>
-                </td>
-                <td>10/10</td>
-            </tr>
-            <tr>
-                <td>Girl Math</td>
-                <td>
-                    <iframe src="https://www.youtube.com/embed/gJNBPCv-vGM" height="200"
-                            title="GIRL MATH COMPILATION"
-                            frameborder="0" allowfullscreen></iframe>
-                </td>
-                <td>8/10</td>
-            </tr>
-        </table>
-    </div>
-    </p>
-    <br>
-    <p>
-        <strong>Twój pomysł na nowy trend</strong>
-    <div class="div2">
-        <form>
-            <label for="fname">Nazwa trendu:</label>
-            <input type="text" id="fname" name="fname" value="Girl Math"><br>
-            <label for="song">Piosenka powiązana z trendem:</label><br>
-            <input type="text" id="song" name="song" value="'Feather' - Sabrina Carpenter"><br>
-            <label for="typ1">Typ trendu:</label><br>
-            <form>
-                <input type="checkbox" id="typ1" name="typ1" value="BookTok">
-                <label for="typ1"> BookTok</label><br>
-                <input type="checkbox" id="typ2" name="typ2" value="CookTok">
-                <label for="typ2"> CookTok</label><br>
-                <input type="checkbox" id="typ3" name="typ3" value="DanceTok">
-                <label for="typ3"> DanceTok</label> <br>
-                <input type="checkbox" id="typ4" name="typ4" value="DIYTok">
-                <label for="typ4"> DIYTok</label><br>
-                <input type="checkbox" id="typ5" name="typ5" value="BeautyTok">
-                <label for="typ5"> BeautyTok</label><br>
-                <input type="checkbox" id="typ6" name="typ6" value="AdviceTok">
-                <label for="typ6"> AdviceTok</label>
+                    </ol>
+                </div>
 
-            </form>
 
-            <span class="relative flex h-3 w-3">
+            </div>
+
+            <br>
+            <h2 class="h2" id="popular_trends">Popularne trendy z Tiktoka</h2>
+            <p>
+
+            <div class="shadow-lg">
+                <table class="table-auto">
+                    <caption>
+                        <strong>
+                            Ocena popularnych trendów na Tiktoku
+                        </strong>
+
+
+                    </caption>
+                    <tr>
+                        <th>Trend</th>
+                        <th>Wideo</th>
+                        <th>Ocena</th>
+                    </tr>
+                    <tr>
+                        <td>Pełzaki</td>
+                        <td>
+                            <iframe src="https://www.youtube.com/embed/I1jMvk0sDpM" height="200" title="A YouTube video"
+                                    frameborder="0" allowfullscreen></iframe>
+                        </td>
+                        <td>2/10</td>
+                    </tr>
+                    <tr>
+                        <td>Girl Dinner</td>
+                        <td>
+                            <iframe src="https://www.youtube.com/embed/5rUbbEHubsw" height="200"
+                                    title="Girl Dinner | Tiktok compilations"
+                                    frameborder="0" allowfullscreen></iframe>
+                        </td>
+                        <td>3/10</td>
+                    </tr>
+                    <tr>
+                        <td>Ich will nicht</td>
+                        <td>
+                            <iframe src="https://www.youtube.com/embed/BEFVmIhidWE" height="200"
+                                    title="ich will nicht dancing wolf meme"
+                                    frameborder="0" allowfullscreen></iframe>
+                        </td>
+                        <td>10/10</td>
+                    </tr>
+                    <tr>
+                        <td>Girl Math</td>
+                        <td>
+                            <iframe src="https://www.youtube.com/embed/gJNBPCv-vGM" height="200"
+                                    title="GIRL MATH COMPILATION"
+                                    frameborder="0" allowfullscreen></iframe>
+                        </td>
+                        <td>8/10</td>
+                    </tr>
+                </table>
+            </div>
+            </p>
+            <br>
+            <p>
+                <strong>Twój pomysł na nowy trend</strong>
+            <div class="div2">
+                <form>
+                    <label for="fname">Nazwa trendu:</label>
+                    <input type="text" id="fname" name="fname" value="Girl Math"><br>
+                    <label for="song">Piosenka powiązana z trendem:</label><br>
+                    <input type="text" id="song" name="song" value="'Feather' - Sabrina Carpenter"><br>
+                    <label for="typ1">Typ trendu:</label><br>
+                    <form>
+                        <input type="checkbox" id="typ1" name="typ1" value="BookTok">
+                        <label for="typ1"> BookTok</label><br>
+                        <input type="checkbox" id="typ2" name="typ2" value="CookTok">
+                        <label for="typ2"> CookTok</label><br>
+                        <input type="checkbox" id="typ3" name="typ3" value="DanceTok">
+                        <label for="typ3"> DanceTok</label> <br>
+                        <input type="checkbox" id="typ4" name="typ4" value="DIYTok">
+                        <label for="typ4"> DIYTok</label><br>
+                        <input type="checkbox" id="typ5" name="typ5" value="BeautyTok">
+                        <label for="typ5"> BeautyTok</label><br>
+                        <input type="checkbox" id="typ6" name="typ6" value="AdviceTok">
+                        <label for="typ6"> AdviceTok</label>
+
+                    </form>
+
+                    <span class="relative flex h-3 w-3">
 
   <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
 
   <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
 
 </span>
-            <input type="submit" value="Submit">
+                    <input type="submit" value="Submit">
 
-        </form>
+                </form>
+            </div>
+            </p>
+            <br>
+            <div class="shadow-md" id="tiktokers">
+                <h2 class="h2">Najbardziej popularni Tiktokerzy w Polsce</h2>
+
+
+                <details>
+                    <summary>
+                        Twins Style
+                    </summary>
+                    <p>
+                        <img src="https://ddob.com/img/influencers/e296185b567df5b4bf7e403032cdcd9c.jpg?v=1708753809"
+                             width=400px>
+                    </p>
+                    <p>
+                        Hubert i Sebastian - bliźniacze rodzeństwo i bez wątpienia najbardziej uzdolniony i kreatywny
+                        duet
+                        na TikToku.
+
+                        Każdy z ich klipów to przemyślane, dopracowane i viralowe przesłanie kierowane do
+                        kilkumilionowej
+                        rzeszy fanów.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        neffatibrothers
+                    </summary>
+                    <p>
+                        <img src="https://ddob.com/img/influencers/3e9d03065b6f0e598c45e5892475ff99.jpg?v=1673406629"
+                             width=400px>
+                    </p>
+                    <p>
+                        Jamel i Jamil to bracia bliźniaki, którzy zdobyli popularność w aplikacji Tik Tok.
+                        Neffati Brothers pochodzą z tynezyjsko - polskiej rodziny, lecz wychowali się w Polsce.
+                        Aktualnie
+                        mieszkają
+                        w Wielkiej Brytanii. Mają ok. 160 cm wzrostu. Urodzili się 8 października 1993 roku.
+
+                        Niewiele wiemy o życiu prywatnym braci Neffati. Jeden z braci, Jamel, jest w związku małżeńskim
+                        z
+                        Agnieszką
+                        Neffati, z którą wspólnie wychowują dziecko.
+                        Na Tik Toku bracia Neffati słyną z filmów comedy.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        Franek Bielak
+                    </summary>
+                    <p>
+                        <img src="https://ddob.com/img/influencers/25244adc635029dfec4b2d7a726dea06.jpg?v=1708755693"
+                             width=400px>
+                    </p>
+                    <p>
+                        Franciszek Bielak to młody rysownik i tiktoker posługujący się pseudonimem artystycznym
+                        Fredziownik.
+
+                        Swoją przygodę z TikTokiem rozpoczął w lutym 2020 roku. W ciągu dwóch lat jego konto stało się
+                        jednym z
+                        chętniej odwiedzanych kont o profilu artystycznym. W grudniu 2020 roku stworzył film, który
+                        uzyskał
+                        drugie
+                        miejsce na świecie z największą liczbą polubień – List of most-liked TikTok videos.
+
+                        W czerwcu 2022 Fredziownik został laureatem nagrody głównej festiwalu See Blogers w Łodzi.
+
+                        Mimo młodego wieku i krótkiej działalności w internecie, Franciszek ma na koncie wiele współprac
+                        z
+                        prestiżowymi klientami, takimi jak Netflix, Fortnite, HP, Xiaomi.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        Jeleniewska
+                    </summary>
+                    <p>
+                        <img src="https://ddob.com/img/influencers/f0309b5cae29e0247449aab2b2065019.jpg?v=1708747272"
+                             width=400px>
+                    </p>
+                    <p>
+                        Maria Jeleniewska znana na TikToku jako Jeleniewska, swoją popularność zawdzięcza
+                        właśnie tej platformie i video typu lip - sync. Założyła kanał na Youtubie.
+                        Pierwsze zdjęcie na Instagramie opublikowała w kwietniu 2016 roku.
+                        Pochodzi z Poznania.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        MARLEY
+                    </summary>
+                    <p>
+                        <img src="https://ddob.com/img/influencers/e08088c6dbb417696cfeb732bb0cd5f4.jpg?v=1708752951"
+                             width=400px>
+                    </p>
+                    <p>
+                        Marlena Sojka to jedna z najpopularniejszych tik tokerek w Polsce. Urodziła się 14 września 1998
+                        roku.
+                        Na
+                        swoim kanale nagrywa filmy lip sync, taniec, zabawne video.
+                        Jej chłopak to Kuba Norek, również popularny Tik Toker.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        ZUSJE
+                    </summary>
+                    <p>
+                        <img src="https://ddob.com/img/influencers/bdb4f7d27cab8866ee2735c2befd349a.jpg?v=1708752639"
+                             width=400px>
+                    </p>
+                    <p>
+                        Zusje zaczynała swoją karierę jako Luxuria Astaroth już w 2012 roku, swój debiut zaliczyła w
+                        teledysku
+                        Donatana &quot;Nie lubimy robić&quot;, występując jako ubijająca masło „Słowianka”.
+                        Szybko rosnąca popularność Astaroth oraz związane z nią skandale, stał się przyczyną
+                        uzależnienia od
+                        używek.
+                        Po odbytym odwyku we wrześniu 2018 roku, Kamila zmieniła pseudonim artystyczny na Zusje.
+
+                        28 marca 2020 roku podczas gali Fame MMA 6 w Gdańsku, 24-letnia wówczas Zusje stanęła do walki w
+                        oktagonie z
+                        młodszą od siebie o 2 lata Martą Linkiewicz. Od tamtej pory Kamila stoczyła także pojedynki z
+                        Dagmarą
+                        Szewczyk, Kamilą „Kamiszką” Wybrańczyk, prywatnie partnerką Artura Szpilki, oraz Martę Rentel
+                        (Martirenti).
+                        Po stoczonej walce z Martirenti, dziewczyny zaprzyjaźniły się.
+
+                        Zusje ma 1,74m wzrostu. Nieprzeciętną urodę zawdzięcza wschodnim korzeniom: jej babcia
+                        pochodziła z
+                        Ukrainy,
+                        a druga babcia była w połowie Chinką i Rosjanką.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        Robert Lewandowski
+                    </summary>
+                    <p>
+                        <img src="https://ddob.com/img/influencers/31d7f17aa72ce7845a1a69ca7a5cdff6.jpg?v=1708755925"
+                             width=400px>
+                    </p>
+                    <p>
+                        Robert Lewandowski to polski piłkarz, występujący na pozycji środkowego napastnika w hiszpańskim
+                        klubie
+                        FC
+                        Barcelona oraz w reprezentacji Polski, której jest kapitanem.
+
+                        Urodził się 21. sierpnia 1988 roku w Waszawie.
+                        Robert ma starszą siostrę Milenę. Jego matka Iwona była siatkarką AZS Warszawa, ojciec Krzysztof
+                        trenował
+                        judo i grał w Hutniku Warszawa.
+
+                        2 czerwca 2013 ożenił się z Anną Stachurską. Lewandowscy mają dwie córki, Klarę (ur. 4 maja
+                        2017) i
+                        Laurę
+                        (ur. 6 maja 2020).
+
+                        Robert Lewandowski wziął m.in. udział w kampanii Vistuli, Coca-Coli Zero, Huawei, czy DHL. Jest
+                        udziałowcem
+                        spółki Protos Venture Capital, przez którą inwestuje w startupy, e-commerce i serwisy
+                        internetowe.
+                        Posiada
+                        własną agencję Stor9_, specjalizującą się w komunikacji marketingowej, która zajmuje się także
+                        wizerunkiem
+                        piłkarza oraz jego żony.
+                    </p>
+
+                </details>
+
+            </div>
+            <br>
+            <h2 class="h2" id="kontynenty">Najpopularniejsi Tiktokerzy na każdym kontynencie</h2>
+
+            <p>Kliknij na wybrany kontynent:</p>
+            <br>
+
+            <img src="world_map.jpg" alt="Planets" usemap="#continentmap">
+
+            <map name="continentmap">
+                <area alt="ameryka płn" title="ameryka płn" href="https://www.tiktok.com/@charlidamelio?lang=en"
+                      coords="268,102,121" shape="circle">
+                <area alt="ameryka płd" title="ameryka płd" coords="327,498,361,421,389,385,431,304,294,237,260,308" shape="poly"
+                      href="https://www.tiktok.com/@domelipa">
+                <area alt="afryka" title="afryka" href="https://www.tiktok.com/@khaby.lame"
+                      coords="496,160,471,233,516,265,600,413,651,393,696,328,692,234,631,165,554,138" shape="poly">
+                <area alt="australia" title="australia" href="https://www.instagram.com/_angelo.marasigan/?hl=en"
+                      coords="948,365,80"
+                      shape="circle">
+                <area alt="europa" title="europa" href="https://www.tiktok.com/@youneszarou"
+                      coords="661,26,557,41,508,87,510,144,601,150,634,170,668,231,754,194,748,137,667,133,692,60"
+                      shape="poly">
+                <area alt="azja" title="azja" href="https://www.tiktok.com/@bayashi.tiktok?lang=en"
+                      coords="950,46,772,15,682,38,680,105,662,110,678,143,698,119,732,138,750,151,747,197,770,245,849,305,906,306,952,289,896,193,952,129"
+                      shape="poly">
+            </map>
+
+
+        </article>
     </div>
-    </p>
-    <br>
-    <div class="shadow-md">
-        <h2 class="h2">Najbardziej popularni Tiktokerzy w Polsce</h2>
+    <div class="item2">
 
+        <div class='article'>
+             <h2 class="h2" id="Menu">Menu</h2>
+            <ul>
+                <li>
+                    <a href="#header">Tik tok - info</a>
+                </li>
+                <li>
+                    <a href="#popular_sounds">Popularne dźwięki</a></li>
+                <li>
+                    <a href="#popular_trends">Popularne trendy</a>
+                </li>
+                <li>
+                    <a href="#tiktokers">Najpopularniejsi polscy tiktokerzy</a>
+                </li>
+                <li>
+                    <a href="#kontynenty">Najpopularniejsi tiktokerzy z każdego kontynentu</a>
+                </li>
+            </ul>
 
-        <details>
-            <summary>
-                Twins Style
-            </summary>
-            <p>
-                <img src="https://ddob.com/img/influencers/e296185b567df5b4bf7e403032cdcd9c.jpg?v=1708753809"
-                     width=400px>
-            </p>
-            <p>
-                Hubert i Sebastian - bliźniacze rodzeństwo i bez wątpienia najbardziej uzdolniony i kreatywny duet
-                na TikToku.
-
-                Każdy z ich klipów to przemyślane, dopracowane i viralowe przesłanie kierowane do kilkumilionowej
-                rzeszy fanów.
-            </p>
-        </details>
-        <details>
-            <summary>
-                neffatibrothers
-            </summary>
-            <p>
-                <img src="https://ddob.com/img/influencers/3e9d03065b6f0e598c45e5892475ff99.jpg?v=1673406629"
-                     width=400px>
-            </p>
-            <p>
-                Jamel i Jamil to bracia bliźniaki, którzy zdobyli popularność w aplikacji Tik Tok.
-                Neffati Brothers pochodzą z tynezyjsko - polskiej rodziny, lecz wychowali się w Polsce. Aktualnie
-                mieszkają
-                w Wielkiej Brytanii. Mają ok. 160 cm wzrostu. Urodzili się 8 października 1993 roku.
-
-                Niewiele wiemy o życiu prywatnym braci Neffati. Jeden z braci, Jamel, jest w związku małżeńskim z
-                Agnieszką
-                Neffati, z którą wspólnie wychowują dziecko.
-                Na Tik Toku bracia Neffati słyną z filmów comedy.
-            </p>
-        </details>
-        <details>
-            <summary>
-                Franek Bielak
-            </summary>
-            <p>
-                <img src="https://ddob.com/img/influencers/25244adc635029dfec4b2d7a726dea06.jpg?v=1708755693"
-                     width=400px>
-            </p>
-            <p>
-                Franciszek Bielak to młody rysownik i tiktoker posługujący się pseudonimem artystycznym Fredziownik.
-
-                Swoją przygodę z TikTokiem rozpoczął w lutym 2020 roku. W ciągu dwóch lat jego konto stało się jednym z
-                chętniej odwiedzanych kont o profilu artystycznym. W grudniu 2020 roku stworzył film, który uzyskał
-                drugie
-                miejsce na świecie z największą liczbą polubień – List of most-liked TikTok videos.
-
-                W czerwcu 2022 Fredziownik został laureatem nagrody głównej festiwalu See Blogers w Łodzi.
-
-                Mimo młodego wieku i krótkiej działalności w internecie, Franciszek ma na koncie wiele współprac z
-                prestiżowymi klientami, takimi jak Netflix, Fortnite, HP, Xiaomi.
-            </p>
-        </details>
-        <details>
-            <summary>
-                Jeleniewska
-            </summary>
-            <p>
-                <img src="https://ddob.com/img/influencers/f0309b5cae29e0247449aab2b2065019.jpg?v=1708747272"
-                     width=400px>
-            </p>
-            <p>
-                Maria Jeleniewska znana na TikToku jako Jeleniewska, swoją popularność zawdzięcza
-                właśnie tej platformie i video typu lip - sync. Założyła kanał na Youtubie.
-                Pierwsze zdjęcie na Instagramie opublikowała w kwietniu 2016 roku.
-                Pochodzi z Poznania.
-            </p>
-        </details>
-        <details>
-            <summary>
-                MARLEY
-            </summary>
-            <p>
-                <img src="https://ddob.com/img/influencers/e08088c6dbb417696cfeb732bb0cd5f4.jpg?v=1708752951"
-                     width=400px>
-            </p>
-            <p>
-                Marlena Sojka to jedna z najpopularniejszych tik tokerek w Polsce. Urodziła się 14 września 1998 roku.
-                Na
-                swoim kanale nagrywa filmy lip sync, taniec, zabawne video.
-                Jej chłopak to Kuba Norek, również popularny Tik Toker.
-            </p>
-        </details>
-        <details>
-            <summary>
-                ZUSJE
-            </summary>
-            <p>
-                <img src="https://ddob.com/img/influencers/bdb4f7d27cab8866ee2735c2befd349a.jpg?v=1708752639"
-                     width=400px>
-            </p>
-            <p>
-                Zusje zaczynała swoją karierę jako Luxuria Astaroth już w 2012 roku, swój debiut zaliczyła w teledysku
-                Donatana &quot;Nie lubimy robić&quot;, występując jako ubijająca masło „Słowianka”.
-                Szybko rosnąca popularność Astaroth oraz związane z nią skandale, stał się przyczyną uzależnienia od
-                używek.
-                Po odbytym odwyku we wrześniu 2018 roku, Kamila zmieniła pseudonim artystyczny na Zusje.
-
-                28 marca 2020 roku podczas gali Fame MMA 6 w Gdańsku, 24-letnia wówczas Zusje stanęła do walki w
-                oktagonie z
-                młodszą od siebie o 2 lata Martą Linkiewicz. Od tamtej pory Kamila stoczyła także pojedynki z Dagmarą
-                Szewczyk, Kamilą „Kamiszką” Wybrańczyk, prywatnie partnerką Artura Szpilki, oraz Martę Rentel
-                (Martirenti).
-                Po stoczonej walce z Martirenti, dziewczyny zaprzyjaźniły się.
-
-                Zusje ma 1,74m wzrostu. Nieprzeciętną urodę zawdzięcza wschodnim korzeniom: jej babcia pochodziła z
-                Ukrainy,
-                a druga babcia była w połowie Chinką i Rosjanką.
-            </p>
-        </details>
-        <details>
-            <summary>
-                Robert Lewandowski
-            </summary>
-            <p>
-                <img src="https://ddob.com/img/influencers/31d7f17aa72ce7845a1a69ca7a5cdff6.jpg?v=1708755925"
-                     width=400px>
-            </p>
-            <p>
-                Robert Lewandowski to polski piłkarz, występujący na pozycji środkowego napastnika w hiszpańskim klubie
-                FC
-                Barcelona oraz w reprezentacji Polski, której jest kapitanem.
-
-                Urodził się 21. sierpnia 1988 roku w Waszawie.
-                Robert ma starszą siostrę Milenę. Jego matka Iwona była siatkarką AZS Warszawa, ojciec Krzysztof
-                trenował
-                judo i grał w Hutniku Warszawa.
-
-                2 czerwca 2013 ożenił się z Anną Stachurską. Lewandowscy mają dwie córki, Klarę (ur. 4 maja 2017) i
-                Laurę
-                (ur. 6 maja 2020).
-
-                Robert Lewandowski wziął m.in. udział w kampanii Vistuli, Coca-Coli Zero, Huawei, czy DHL. Jest
-                udziałowcem
-                spółki Protos Venture Capital, przez którą inwestuje w startupy, e-commerce i serwisy internetowe.
-                Posiada
-                własną agencję Stor9_, specjalizującą się w komunikacji marketingowej, która zajmuje się także
-                wizerunkiem
-                piłkarza oraz jego żony.
-            </p>
-
-        </details>
-
+        </div>
     </div>
-    <br>
-    <h2 class="h2">Najpopularniejsi Tiktokerzy na każdym kontynencie</h2>
-
-    <p>Kliknij na wybrany kontynent:</p>
-    <br>
-
-    <img src="world_map.jpg" alt="Planets" usemap="#continentmap">
-
-    <map name="continentmap">
-        <area alt="ameryka płn" title="ameryka płn" href="https://www.tiktok.com/@charlidamelio?lang=en"
-              coords="375,147,156" shape="circle">
-        <area alt="ameryka płd" title="ameryka płd" coords="463,667,593,445,381,299,373,421" shape="poly"
-              href="https://www.tiktok.com/@domelipa">
-        <area alt="afryka" title="afryka" href="https://www.tiktok.com/@khaby.lame"
-              coords="859,591,961,340,862,232,736,201,669,306" shape="poly">
-        <area alt="australia" title="australia" href="https://www.instagram.com/_angelo.marasigan/?hl=en"
-              coords="1305,592,1399,612,1454,543,1396,511,1490,462,1401,388,1351,400,1287,433,1200,459,1199,540"
-              shape="poly">
-        <area alt="europa" title="europa" href="https://www.tiktok.com/@youneszarou"
-              coords="939,30,809,46,712,114,716,203,818,212,888,230,935,320,1057,258,1045,195,981,175,930,192,961,90"
-              shape="poly">
-        <area alt="azja" title="azja" href="https://www.tiktok.com/@bayashi.tiktok?lang=en"
-              coords="963,37,1293,60,1350,102,1277,226,1253,293,1322,376,1238,434,1153,375,1065,326,1058,230,1033,188,975,165,934,173"
-              shape="poly">
-    </map>
-
-
-</article>
+</div>
 
 </html>

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Formularz</title>
+</head>
+<body class="bg-light">
+
+<div class="container">
+  <main>
+    <div class="py-5 text-center">
+      <h2>Formularz</h2>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-md-7 col-lg-8">
+        <form>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Imię</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Adres email</label>
+              <input type="email" class="form-control" id="email" placeholder="ty@przyklad.com">
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Adres</label>
+              <input type="text" class="form-control" id="address" placeholder="Stefana Banacha 2" required>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">Adres 2 <span class="text-muted">(Opcjonalnie)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="dom, blok, instytucja, itp.">
+            </div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">Kraj</label>
+              <select class="form-select" id="country" required>
+                <option value="">Wybierz...</option>
+                <option>Polska</option>
+                <option>Niemcy</option>
+                <option>Francja</option>
+                <option>Włochy</option>
+                <option>Hiszpania</option>
+              </select>
+            </div>
+
+            <div class="col-md-4">
+              <label for="state" class="form-label">Województwo</label>
+              <select class="form-select" id="state" required>
+                <option value="">Wybierz...</option>
+                <option>Mazowieckie</option>
+                <option>Wielkopolskie</option>
+                <option>Małopolskie</option>
+                <option>Śląskie</option>
+                <option>Łódzkie</option>
+              </select>
+            </div>
+
+            <div class="col-md-3">
+              <label for="zip" class="form-label">Kod pocztowy</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required>
+            </div>
+
+            <div class="col-12">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="save-info">
+                <label class="form-check-label" for="save-info">Zapamiętaj moje dane dla przyszłych zamówień</label>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="credit" name="paymentMethod" checked required>
+                <label class="form-check-label" for="credit">Karta kredytowa</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="debit" name="paymentMethod" required>
+                <label class="form-check-label" for="debit">Karta debetowa</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="paypal" name="paymentMethod" required>
+                <label class="form-check-label" for="paypal">PayPal</label>
+              </div>
+            </div>
+
+            <hr class="my-4">
+
+            <button class="w-100 btn btn-primary btn-lg" type="submit">Wyślij formularz</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>
